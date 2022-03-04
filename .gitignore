@@ -1,0 +1,17 @@
+# test db
+db.sqlite3
+
+# dont know why
+*.pyc
+
+#pycharm
+.idea
+.idea/
+
+# Environment
+.env
+.venv
+venv/
+
+# images
+*.odg

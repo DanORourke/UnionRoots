@@ -1,0 +1,5 @@
+{% extends "home/header.html" %}
+{% block content %}
+{% load martortags %}
+{{object.body|safe_markdown}}
+{% endblock %}
